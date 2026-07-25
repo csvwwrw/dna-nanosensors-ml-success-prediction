@@ -1,0 +1,30 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated reports
+outputs/
+*.log
+
+# Optional: ignore regenerated models and processed data
+# Uncomment these if models/data should not be versioned:
+# models/*.joblib
+# data/data.csv

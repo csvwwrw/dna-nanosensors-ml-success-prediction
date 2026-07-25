@@ -1,0 +1,30 @@
+K-Fold Cross-Validation Scores: [0.82352941 0.81818182 0.81818182 0.75757576 0.81818182]
+Mean CV Accuracy: 0.8071
+Standard Deviation: 0.0249
+
+Final Test Set Accuracy: 0.9047619047619048
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94        33
+           1       0.86      0.67      0.75         9
+
+    accuracy                           0.90        42
+   macro avg       0.89      0.82      0.85        42
+weighted avg       0.90      0.90      0.90        42
+
+Feature Importances:
+              feature  importance_mean  importance_std
+0         1arm_mod_dg         0.119048        0.039555
+1            whole_dg         0.107619        0.038463
+2         3arm_mod_dg         0.050000        0.027458
+3       analyte_dsDNA         0.046190        0.011076
+4         2arm_mod_dg         0.041905        0.028396
+5       4_1arm_mod_dg         0.011905        0.022961
+6       sensor_Binary         0.000000        0.000000
+7          sensor_DNM         0.000000        0.000000
+8        core_DNAzyme         0.000000        0.000000
+9   core_G-quadruplex         0.000000        0.000000
+10   analyte_amplicon         0.000000        0.000000
+11      analyte_ssDNA         0.000000        0.000000
